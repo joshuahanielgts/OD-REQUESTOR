@@ -14,21 +14,21 @@ html {
 
 @layer components {
     .btn-primary {
-        @apply px-4 py-2 bg-srm-blue text-white rounded-lg hover: bg-blue-700 transition-colors font-medium;
+        @apply px-4 py-2 bg-srm-blue text-white rounded-lg hover:bg-blue-700 transition-colors font-medium;
     }
     .btn-secondary {
-        @apply px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover: bg-gray-300 transition-colors font-medium;
+        @apply px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition-colors font-medium;
     }
     .btn-success {
-        @apply px-4 py-2 bg-srm-green text-white rounded-lg hover: bg-green-700 transition-colors font-medium;
+        @apply px-4 py-2 bg-srm-green text-white rounded-lg hover:bg-green-700 transition-colors font-medium;
     }
     .btn-danger {
-        @apply px-4 py-2 bg-red-600 text-white rounded-lg hover: bg-red-700 transition-colors font-medium;
+        @apply px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors font-medium;
     }
     .card {
         @apply bg-white rounded-lg shadow-md border border-gray-200 p-6;
     }
     .input-field {
-        @apply w-full px-3 py-2 border border-gray-300 rounded-md focus: outline-none focus: ring-2 focus: ring-srm-blue focus: border-transparent;
+        @apply w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-srm-blue focus:border-transparent;
     }
 }
